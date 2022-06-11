@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+.nav-cont {
+  border-bottom: 1px solid grey;
+}
+
+.nav-items li,
+.info li {
+  margin: 0 3rem;
+}
+nav button {
+  background: #00b5d8;
+  border: none;
+  border-radius: 5px;
+  width: 145px;
+  height: 40px;
+}
+section {
+  overflow: hidden;
+}
+header {
+  overflow: hidden;
+}
+.info-section h3 {
+  width: 35%;
+}
+.posts-section .grid-cont {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.posts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.reads .row {
+  margin: 1rem 0;
+}
+.reads img {
+  width: 100%;
+}
+.reads p {
+  word-spacing: 5px;
+  color: #828282;
+}
+.reads .read {
+  width: 60%;
+}
+footer .list-items li {
+  margin: 2rem 0;
+}
+footer input {
+  width: 250px;
+}
+footer button {
+  background: #00b5d8;
+  color: white;
+  border: none;
+  width: 152px;
+  height: 46px;
+}
+.bordered {
+  border-top: 1px solid grey;
+}
+footer .logo {
+  width: 25%;
+}
+@media screen and (max-width: 767px) {
+  .img-container {
+    height: 20vh;
+  }
+  .img-container img {
+    height: 100%;
+  }
+  .info-section h3 {
+    width: 100%;
+  }
+  .posts-section .grid-cont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info ul {
+    flex-wrap: wrap;
+  }
+  .info li {
+    margin: 0 2rem;
+  }
+  .mob-nav-items {
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s all ease-in-out;
+  }
+  .show-nav {
+    height: 500px;
+  }
+  .mob-nav-items li {
+    margin: 4rem 0;
+  }
+  .bi-x-lg {
+    display: none;
+  }
+  .show-x {
+    display: block;
+  }
+  .read-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+  }
+  .img-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./images/reads-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+  }
+  .img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./images/reads-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+  }
+  .img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./images/reads-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+  }
+  .img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./images/reads-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+  }
+  footer .logo {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 852px) {
+  .nav-items li,
+  .info li {
+    margin: 0 1rem;
+  }
+  .nav-items li {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav-items li,
+  .info li {
+    margin: 0 1rem;
+  }
+}
